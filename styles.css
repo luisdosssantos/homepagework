@@ -44,20 +44,12 @@ body {
     padding-bottom: 40px;
 }
 
-.top_logo{
-    font-family: eurostile;
-    font-size: 32px;
-    font-weight: 900;
-    color: white;
-    background-color: #E92B56;
-}
-
-.header__logo {
+.header_logo {
 	display: flex;
 	flex: 1;
 }
 
-.header__logo:after {
+.header_logo:after {
 	content: "";
 	background: repeating-linear-gradient(90deg, #E92B56, #E92B56 4px, transparent 0, transparent 12px);
 	display: block;
@@ -87,7 +79,6 @@ body {
     padding-top: 5px;
     padding-bottom: 5px;
 }
-
 
 /* Box */
 
@@ -165,20 +156,6 @@ a:visited {
     padding-left: 4px;
     padding-right: 4px;
 }
-
-/*
-
-.box:hover{
-    transform: scale(1.05);
-    transition: 300ms ease-in-out;
-}
-
-.box:not(hover){
-    transform: scale3d(1);
-    transition: 100ms ease-in-out;
-}
-
-*/
 
 /* Footer */
 
