@@ -1,0 +1,215 @@
+/* Bootstrap */
+
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css";
+ 
+/* Fonts */
+
+@font-face {
+  font-family: eurostile;
+  src: url(fonts/eurostile.TTF);
+}
+
+@font-face {
+    font-family: EuroStyle-Normal;
+    src: url(fonts/EuroStyle\ Normal.ttf);
+}
+
+/* Body */
+
+body {
+    background: #192136 !important;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* Top */
+
+#top_icon{
+    padding-right: 20px;
+}
+
+.top{
+    font-family: eurostile;
+    font-size: 32px;
+    font-weight: 900;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.top2{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.top_logo{
+    font-family: eurostile;
+    font-size: 32px;
+    font-weight: 900;
+    color: white;
+    background-color: #E92B56;
+}
+
+.header__logo {
+	display: flex;
+	flex: 1;
+}
+
+.header__logo:after {
+	content: "";
+	background: repeating-linear-gradient(90deg, #E92B56, #E92B56 4px, transparent 0, transparent 12px);
+	display: block;
+	width: 100%;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	background: #E92B56;
+    font-family: eurostile;
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+	padding: 5px 10px;
+}
+
+/* Box Wallpaper */
+
+.wallpaper{
+    width: 70%;
+    height: auto;
+}
+  
+.form{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+/* Box */
+
+.icon_box_head{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.box_head{
+    font-family: eurostile;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.links{
+    font-family: eurostile;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+.links:hover{
+    text-decoration: underline;
+    color: #E92B56;
+    -webkit-transition: color 300ms linear;
+    -ms-transition: color 300ms linear;
+    -o-transition: color 300ms linear;
+    transition: color 300ms linear;
+}
+
+a:visited {
+    font-family: eurostile;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+.links2{
+    margin-bottom: 4px;
+}
+
+.links2:hover{
+    transform: scale(1.2);
+    transition: 300ms ease-in-out;
+}
+
+.box{
+    background: #25314d !important;
+    border: 3px solid #E92B56;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Box Help */
+
+.box_key2{
+    margin-top: 20px;
+    background: #25314d !important;
+    border: 3px solid #E92B56;
+}
+
+.text_help{
+    font-family: eurostile;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    padding-bottom: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+/*
+
+.box:hover{
+    transform: scale(1.05);
+    transition: 300ms ease-in-out;
+}
+
+.box:not(hover){
+    transform: scale3d(1);
+    transition: 100ms ease-in-out;
+}
+
+*/
+
+/* Footer */
+
+.div_footer{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.footer_text{
+    font-family: eurostile;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+
+.footer_text_link{
+    font-family: eurostile;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    text-decoration: underline;
+}
+
+.footer_text_link:hover{
+    font-family: eurostile;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: underline;
+    color: #E92B56;
+    -webkit-transition: color 300ms linear;
+    -ms-transition: color 300ms linear;
+    -o-transition: color 300ms linear;
+    transition: color 300ms linear;
+}
